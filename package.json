@@ -8,7 +8,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "heroku-prebuild": "buildpack-run.sh",
+    "heroku-postbuild": "buildpack-run.sh"
   },
   "dependencies": {
     "ejs": "^2.5.6",
