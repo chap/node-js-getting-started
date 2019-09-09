@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "heroku-prebuild": "bash ./buildpack-run.sh",
-    "heroku-postbuild": "bash ./buildpack-run.sh"
+    "heroku-prebuild": "env | cat SOURCE_VERSION",
+    "heroku-postbuild": "env | cat SOURCE_VERSION"
   },
   "dependencies": {
     "ejs": "^2.5.6",
