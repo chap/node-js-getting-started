@@ -1,2 +1,2 @@
 web: node index.js
-release: ./buildpack-run.sh
+release: buildpack-run.sh
