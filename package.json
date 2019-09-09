@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "heroku-prebuild": "buildpack-run.sh",
+    "heroku-prebuild": "./buildpack-run.sh",
     "heroku-postbuild": "buildpack-run.sh"
   },
   "dependencies": {
